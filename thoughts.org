@@ -1,0 +1,39 @@
+
+
+
+
+
+
+Okay so my code as is lets me see amount of letters and how many letters were found in the text i think it would be cool to print it as is and maybe even sort them alphabetically.
+I think when I input them in it I would have to set them to a index. maybe have the alphabet be a set since we know it only gonna be that many.
+before we try to sort it alphabetically i think im just gonna try to get it to print out nicely and we will see how it goes from there
+
+
+okay so right now when im printing i im getting the index so I imagine letter_tracker at i gives me the keypair
+
+okay so print(letter_tracker[i]) does not give me the keyvalue pair but just bricks my code. Why it does this im not too sure I also don't understand dicts in python probably as well as I should.
+
+okay I have now read up and I think I understand it now perchance
+
+
+okay so now it prints nicely and so now I think I just need to edit my intial for loop to sort it alphabetically
+
+I feel like it would look nicer to get it done in my intial loop but I may be skill gapped to try and do it as is.
+
+So it might be easier to resort it after
+
+so we have our keyval
+
+im not sure how to get a index in my current for values in letter_tracker
+
+I probably need to figure shit out lo
+
+I mean I could maybe loop
+
+
+maybe we check if when we loop through values in letter_tracker aka our chars we do a if that compares it to our alphabet list and if its the same we set our key value pair to the poistion.
+
+
+
+
+LMAO so I just read the doc for dicts and I see theres a sorted() function that does what I wanted. Im sure their is another way to do what I wanted but for now Im fine with this.
